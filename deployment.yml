@@ -6,7 +6,7 @@ metadata:
   labels:
     app: reddit-clone
 spec:
-  replicas: 2
+  replicas: 5a
   selector:
     matchLabels:
       app: reddit-clone
@@ -19,4 +19,4 @@ spec:
       - name: reddit-clone
         image: rohanrustagi18/redditclone
         ports:
-        - containerPort: 3000
+        - containerPort: 3000a
