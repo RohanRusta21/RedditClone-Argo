@@ -6,7 +6,7 @@ metadata:
   labels:
     app: reddit-clone
 spec:
-  replicas: 3
+  replicas: 11
   selector:
     matchLabels:
       app: reddit-clone
