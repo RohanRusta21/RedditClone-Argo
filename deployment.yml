@@ -19,4 +19,4 @@ spec:
       - name: reddit-clone
         image: rohanrustagi18/redditclone
         ports:
-        - containerPort: 3000a
+        - containerPort: 3000
